@@ -10,7 +10,6 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
           integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet"/>
     <link href="css/styles.css" rel="stylesheet"/>
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -93,7 +92,7 @@
 
                     </div>
                     <div class="card-body">
-                        <table id="datatablesSimple">
+                        <table id="myTable">
                             <thead>
                             <tr>
                                 <th>Tên khách hàng</th>
@@ -209,7 +208,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
 <script>
     $(document).ready(function () {
-        $('#datatablesSimple').DataTable();
+        $('#myTable').DataTable();
         $('.delete-confirm').on('click', function (event) {
             event.preventDefault();
             const url = $(this).attr('href');
