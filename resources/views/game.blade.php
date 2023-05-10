@@ -15,7 +15,7 @@
     body {
         font-family: 'Nunito', sans-serif;
         /*background-color: #ebc7d5;*/
-        background: url("images/woman/backgound.png") no-repeat center center fixed;
+        background: url("images/may/bg-may.jpg") no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
