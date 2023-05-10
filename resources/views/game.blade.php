@@ -148,7 +148,7 @@
 <div class="standard-mobile">
     <div id="open-gift">
         <div class="gift-img w-75">
-            <img id="open-anim" src="images/woman/box.png" alt="">
+            <img id="open-anim" src="images/may/kem.png" alt="">
         </div>
         <div class="gift-content w-75">
             <div class="gift-content">
@@ -184,26 +184,26 @@
     <div class="container-fluid p-5 box-gift" style="margin-top: 60%">
         <div class="row no-gutters">
             <div class="col-6 text-center mb-5">
-                <img class="item w-50" src="images/woman/box.png" alt="">
+                <img class="item w-50" src="images/may/kem.png" alt="">
             </div>
             <div class="col-6 text-center mb-5">
-                <img class="item w-50" src="images/woman/box.png" alt="">
-            </div>
-        </div>
-        <div class="row no-gutters">
-            <div class="col-6 text-center mb-5">
-                <img class="item w-50" src="images/woman/box.png" alt="">
-            </div>
-            <div class="col-6 text-center mb-5">
-                <img class="item w-50" src="images/woman/box.png" alt="">
+                <img class="item w-50" src="images/may/kem.png" alt="">
             </div>
         </div>
         <div class="row no-gutters">
             <div class="col-6 text-center mb-5">
-                <img class="item w-50" src="images/woman/box.png" alt="">
+                <img class="item w-50" src="images/may/kem.png" alt="">
             </div>
             <div class="col-6 text-center mb-5">
-                <img class="item w-50" src="images/woman/box.png" alt="">
+                <img class="item w-50" src="images/may/kem.png" alt="">
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-6 text-center mb-5">
+                <img class="item w-50" src="images/may/kem.png" alt="">
+            </div>
+            <div class="col-6 text-center mb-5">
+                <img class="item w-50" src="images/may/kem.png" alt="">
             </div>
         </div>
     </div>
