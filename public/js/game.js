@@ -1,9 +1,9 @@
 import confetti from "https://cdn.skypack.dev/canvas-confetti";
 
 $(document).ready(function () {
-    const gifted = window.localStorage.getItem('gift');
-    const giftImg = window.localStorage.getItem('gift-img');
-    const contacted = window.localStorage.getItem('user');
+    const gifted = window.localStorage.getItem('gift-may');
+    const giftImg = window.localStorage.getItem('gift-img-may');
+    const contacted = window.localStorage.getItem('user-may');
     if(contacted){
         $(".overlay").show();
         setTimeout(function () {
@@ -44,8 +44,8 @@ $(document).ready(function () {
             $(".gift-footer").show();
             const gift = $(".gift-id").val()
             const giftImg  = $("#img-gift").attr('src');
-            window.localStorage.setItem('gift',gift)
-            window.localStorage.setItem('gift-img',giftImg)
+            window.localStorage.setItem('gift-may',gift)
+            window.localStorage.setItem('gift-img-may',giftImg)
             confetti(
                 {
                     particleCount: 500,
@@ -67,6 +67,6 @@ $(document).ready(function () {
     });
 
     $('.btn-receive').on('click',function () {
-        window.localStorage.setItem('user',1);
+        window.localStorage.setItem('user-may',1);
     })
 })
